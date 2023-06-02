@@ -1,0 +1,6 @@
+import numpy as np
+arr=np.array([[1,2,3],[4,5,6],[7,8,9]])
+def traverse(array,row,col):
+    for i in array:
+        print(array[row][col])
+print(traverse(arr,len(arr),len(arr[0])))

@@ -4,3 +4,5 @@ def traverse(array):
     for i in array:
         print(i)
 traverse(arr1)
+
+
