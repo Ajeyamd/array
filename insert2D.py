@@ -6,3 +6,6 @@ print(twoDArray)
 
 new2DArray=np.insert(twoDArray,-1,[[0,0,0]],axis=0)
 print(new2DArray)
+
+new2DArray=np.insert(twoDArray,2,[[9,9,9]],axis=1)
+print(new2DArray)
